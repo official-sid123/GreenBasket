@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Apples",
+        "price": "150",
+        "description": "Premium quality Shimla apples, known for their crisp texture and sweet-tart flavor, grown in the Himalayan foothills.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Red_Apple.jpg",
+        "is_featured": "1"
+    },
+    {
+        "name": "Bananas",
+        "price": "50",
+        "description": "Organic Cavendish bananas, rich in potassium and naturally sweet, grown in the fertile regions of Kerala.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Banana-Single.jpg",
+        "is_featured": "0"
+    },
+    {
+        "name": "Oranges",
+        "price": "120",
+        "description": "Juicy Nagpur oranges, famous for their bright color and tangy-sweet taste, a winter specialty from Maharashtra.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Orange-Fruit-Pieces.jpg",
+        "is_featured": "1"
+    },
+    {
+        "name": "Mangoes",
+        "price": "250",
+        "description": "Alphonso mangoes, the king of fruits, known for their rich aroma and buttery texture, grown in Ratnagiri.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Alphonso_mango.jpg",
+        "is_featured": "1"
+    },
+    {
+        "name": "Pomegranates",
+        "price": "180",
+        "description": "Ruby-red pomegranates from Solapur, packed with antioxidants and bursting with sweet-tart arils.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Pomegranate_Fruit.jpg",
+        "is_featured": "0"
+    },
+    {
+        "name": "Strawberries",
+        "price": "300",
+        "description": "Fresh Mahabaleshwar strawberries, known for their bright red color and sweet fragrance, grown in the hills of Maharashtra.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Strawberry.jpg",
+        "is_featured": "1"
+    },
+    {
+        "name": "Watermelons",
+        "price": "80",
+        "description": "Sweet and refreshing watermelons from Sangli, with deep red flesh and high water content, perfect for summer.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Watermelon.jpg",
+        "is_featured": "0"
+    },
+    {
+        "name": "Pineapples",
+        "price": "90",
+        "description": "Golden pineapples from Tripura, known for their tropical sweetness and juicy yellow flesh.",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Pineapple_and_cross_section.jpg",
+        "is_featured": "0"
+    }
+]
