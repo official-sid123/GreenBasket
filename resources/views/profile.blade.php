@@ -307,7 +307,11 @@
         <!-- Sidebar Navigation -->
         <div class="profile-sidebar">
             <div class="profile-header">
-               <a href="{{ route('profile.update') }}"><img src="{{ asset('/storage/' . auth()->user()->image_url) }}" alt="Profile Picture" class="profile-pic"></a> 
+             <img src="{{ auth()->check() && auth()->user()->image_url 
+    ? asset('/storage/' . auth()->user()->image_url) 
+    : asset('images/default-profile.png') }}" 
+    alt="Profile Picture" class="profile-pic">
+
                 <h3 class="profile-name">{{ auth()->user()->name }}</h3>
                 <p class="profile-email">{{ auth()->user()->email }}</p>
             </div>
