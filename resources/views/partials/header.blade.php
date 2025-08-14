@@ -35,7 +35,7 @@
             <!-- Profile Dropdown -->
             <div class="relative">
                 <button id="profileToggle" class="flex items-center gap-2 focus:outline-none">
-                    <img src="{{ asset('/storage/' . auth()->user()->image_url) }}" alt="Profile" class="w-12 h-12 rounded-full border">
+                    <img src="{{ asset('/storage/' .optional(auth()->user())->image_url) }}" alt="Profile" class="w-12 h-12 rounded-full border">
                     <span class="hidden md:inline">{{ Auth::user()->name ?? 'Guest' }}</span>
                 </button>
 
@@ -48,8 +48,8 @@
                             <button type="submit" class="w-full text-left px-4 py-2 hover:bg-gray-100">Logout</button>
                         </form>
                     @else
-                        <a href="" class="block px-4 py-2 hover:bg-gray-100">Login</a>
-                        <a href="" class="block px-4 py-2 hover:bg-gray-100">Register</a>
+                        <a href="{{ route('users.login') }}" class="block px-4 py-2 hover:bg-gray-100">Login</a>
+                        <a href="{{ route('users.register') }}" class="block px-4 py-2 hover:bg-gray-100">Register</a>
                     @endauth
                 </div>
             </div>
